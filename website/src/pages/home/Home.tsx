@@ -124,11 +124,11 @@ export function Home() {
                     : 0}
                 </>
               }
-              label="24h Volum"
+              label="24h Volume"
             />
             <div className="mx-[26px] h-full border-r-[1px] border-[#9b9b9b]"></div>
             <DashbooardItem
-              value={data ? data.detail.holder : 0}
+              value={data ? data.detail.holder : 15}
               label="Hodlers"
             />
           </div>
@@ -163,7 +163,7 @@ export function Home() {
                         Number.parseFloat(data.marketplace.floorPrice) *
                         100000000
                       ).toFixed(4)
-                    : 0) + ' sats'}
+                    : 3) + ' sats'}
                 </div>
               </div>
             </div>
@@ -182,7 +182,7 @@ export function Home() {
                 }}
                 className="h-[40px] w-[152px] "
               >
-                Join us
+                Find RNTals
               </Button>
             </div>
           </div>

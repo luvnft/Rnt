@@ -32,7 +32,7 @@ export const Header = () => {
         className="flex cursor-pointer items-center gap-4"
       >
         <img
-          src="/favicon.ico"
+          src="/rnt.ico"
           className="rounded-full"
           width={52}
           alt="logo"
