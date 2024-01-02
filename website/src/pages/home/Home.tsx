@@ -163,7 +163,7 @@ export function Home() {
                         Number.parseFloat(data.marketplace.floorPrice) *
                         100000000
                       ).toFixed(4)
-                    : 3) + ' sats'}
+                    : 3707651) + ' sats'}
                 </div>
               </div>
             </div>
