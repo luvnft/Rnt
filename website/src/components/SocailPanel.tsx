@@ -4,7 +4,7 @@ import { onShareX } from 'utils/social'
 
 export function SoialPanel() {
   const handleShare = async () => {
-    const shortUrl = `seeu community official website: %0A https://seeu.meme %0A👆👆👆%0A %23brc20 %23seeu`
+    const shortUrl = `seeu community official website: %0A https://rnt.luvnft.com %0A👆👆👆%0A %23brc20 %23rentsat`
     onShareX(shortUrl)
   }
   return (
@@ -26,7 +26,7 @@ export function SoialPanel() {
       <div
         className="!flex cursor-pointer items-center justify-center rounded-full border p-[8px] hover:bg-[#F7931A]"
         onClick={() => {
-          window.open('https://twitter.com/seeu_brc20')
+          window.open('https://twitter.com/rntsat')
         }}
       >
         <TwitterIcon
@@ -40,7 +40,7 @@ export function SoialPanel() {
       <div
         className="!flex cursor-pointer items-center justify-center rounded-full border p-[8px] hover:bg-[#F7931A]"
         onClick={() => {
-          window.open('https://t.me/+-sylvVN20l5jYzdl')
+          window.open('https://t.me/rntsat')
         }}
       >
         <TelegramIcon

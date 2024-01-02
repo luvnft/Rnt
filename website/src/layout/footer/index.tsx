@@ -5,7 +5,7 @@ const Footer = () => {
       <div className="flex flex-1 gap-[18px] text-[18px] lg:gap-[60px]">
         <span
           onClick={() => {
-            window.open('https://twitter.com/seeu_brc20', '_blank')
+            window.open('https://twitter.com/rntsat', '_blank')
           }}
           className="cursor-pointer"
         >
@@ -13,7 +13,7 @@ const Footer = () => {
         </span>
         <span
           onClick={() => {
-            window.open('https://t.me/seeubtc', '_blank')
+            window.open('https://t.me/rntsat', '_blank')
           }}
           className="cursor-pointer"
         >
@@ -22,13 +22,13 @@ const Footer = () => {
         <span
           onClick={() => {
             window.open(
-              'https://seeubtc.notion.site/SeeU-910514ce2de248e4a4ac2ae84ab9c621',
+              'https://luvnft.com',
               '_blank'
             )
           }}
           className="cursor-pointer"
         >
-          Notion
+          LUV NFT
         </span>
         {/* <span
           onClick={() => {
@@ -40,14 +40,14 @@ const Footer = () => {
         </span> */}
         <span
           onClick={() => {
-            window.open('https://github.com/seeu-labs', '_blank')
+            window.open('https://www.linkedin.com/groups/14347080/', '_blank')
           }}
           className="cursor-pointer"
         >
-          GitHub
+          Linkedin
         </span>
       </div>
-      <div>© SeeU 2023</div>
+      <div>© $RNT 2023</div>
     </div>
   )
 }

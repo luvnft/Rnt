@@ -1,77 +1,77 @@
-import tool1 from '/assets/images/tool1.png'
-import tool2 from '/assets/images/tool2.png'
-import tool3 from '/assets/images/tool3.png'
-import tool4 from '/assets/images/tool4.png'
-import tool5 from '/assets/images/tool5.png'
-import tool6 from '/assets/images/tool6.png'
-import tool7 from '/assets/images/tool7.png'
-import tool8 from '/assets/images/tool8.png'
+import tool1 from '/assets/images/tool1.png';
+import tool2 from '/assets/images/tool2.png';
+import tool3 from '/assets/images/tool3.png';
+import tool4 from '/assets/images/tool4.png';
+import tool5 from '/assets/images/tool5.png';
+import tool6 from '/assets/images/tool6.png';
+import tool7 from '/assets/images/tool7.png';
+import tool8 from '/assets/images/tool8.png';
 
 export type Tool = {
-  id: number
-  url: string
-  name: string
-  image: string
-}
+  id: number;
+  url: string;
+  name: string;
+  image: string;
+};
 
 export const toolsData: {
-  [x: string]: Tool[]
+  [x: string]: Tool[];
 } = {
   dashboard: [
     {
       id: 1,
       url: 'https://discord.gg/x5JVbNWERV',
       image: tool1,
-      name: 'LUV NFT Discord'
+      name: 'LUV NFT Discord',
     },
     {
       id: 2,
       url: 'https://discord.com/channels/1163344441436819497/shop',
       image: tool2,
-      name: 'CRE CLUB Discord'
+      name: 'CRE CLUB Discord',
     },
     {
       id: 3,
       url: 'https://ateam.arvrtise.com',
       image: tool3,
-      name: 'Arvrtise Discord'
+      name: 'Arvrtise Discord',
     },
     {
       id: 4,
       url: 'https://discord.com/channels/1164180431181201438/shop',
       image: tool4,
-      name: 'ADUBNB'
+      name: 'ADUBNB',
     },
     {
       id: 5,
       url: 'https://discord.com/channels/1188100125705375806/shop',
       image: tool5,
-      name: 'HAIR'
-    }
+      name: 'HAIR',
+    },
   ],
   'Mint Tools': [
     {
       id: 1,
       url: 'https://sator.luvnft.com',
       image: tool6,
-      name: 'SATOR '
+      name: 'SATOR ',
     },
     {
       id: 2,
       url: 'https://hub.cryptocell.guru/ordinalsturbo/',
       image: tool7,
-      name: 'HUB'
-    }
+      name: 'HUB',
+    },
   ],
   Accelerator: [
     {
       id: 1,
       url: 'https://pool.binance.com/en/acceleration',
       image: tool8,
-      name: 'Binance Accelerator'
-    }
-  ]
-}
+      name: 'Binance Accelerator',
+    },
+  ],
+};
 
 export const Tools = () => {
   return (
@@ -98,7 +98,7 @@ export const Tools = () => {
         </div>
       ))}
     </div>
-  )
-}
+  );
+};
 
-export default Tools
+export default Tools;
