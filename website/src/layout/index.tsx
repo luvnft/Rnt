@@ -37,7 +37,7 @@ export const Header = () => {
           width={52}
           alt="logo"
         />
-        SeeU
+        $RNT
       </div>
       <div className="flex-1"> </div>
       <SoialPanel />

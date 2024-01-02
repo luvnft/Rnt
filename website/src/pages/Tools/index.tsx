@@ -19,13 +19,13 @@ export const toolsData: {
   dashboard: [
     {
       id: 1,
-      url: 'https://mempool.space/',
+      url: 'https://luvgames.luvnft.com',
       image: tool1,
       name: 'LUV NFT Discord'
     },
     {
       id: 2,
-      url: 'https://dune.com/cryptokoryo/brc20',
+      url: 'https://cre.arvrtise.com',
       image: tool2,
       name: 'CRE CLUB Discord'
     },
@@ -37,7 +37,7 @@ export const toolsData: {
     },
     {
       id: 4,
-      url: 'https://ordinals.hiro.so/',
+      url: 'https://discord.com/channels/1164180431181201438/shop',
       image: tool4,
       name: 'ADUBNB'
     }
@@ -53,7 +53,7 @@ export const toolsData: {
       id: 2,
       url: 'https://hub.cryptocell.guru/ordinalsturbo/',
       image: tool6,
-      name: 'Ordinalsturbo'
+      name: 'Ordinals Turbo'
     }
   ]
 }

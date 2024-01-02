@@ -4,7 +4,7 @@ import { onShareX } from 'utils/social'
 
 export function SoialPanel() {
   const handleShare = async () => {
-    const shortUrl = `seeu community official website: %0A https://rnt.luvnft.com %0A👆👆👆%0A %23brc20 %23rentsat`
+    const shortUrl = `$RNT community official website: %0A https://rnt.luvnft.com %0A👆👆👆%0A %23brc20 %23rentsat`
     onShareX(shortUrl)
   }
   return (

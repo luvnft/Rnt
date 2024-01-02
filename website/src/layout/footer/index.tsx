@@ -1,7 +1,7 @@
 const Footer = () => {
   return (
     <div className="mt-[40px] flex h-[87px] flex-wrap  items-center gap-[10px] border-t-[1px] border-[#383838] p-[10px]">
-      <div className="pr-[60px] text-[26px]  font-[700]">SeeU</div>
+      <div className="pr-[60px] text-[26px]  font-[700]">$RNT</div>
       <div className="flex flex-1 gap-[18px] text-[18px] lg:gap-[60px]">
         <span
           onClick={() => {

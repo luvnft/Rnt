@@ -6,13 +6,13 @@ const Marketplace = () => {
     {
       id: 1,
       name: 'Unisats',
-      url: 'https://unisat.io/market/brc20?tick=SeeU',
+      url: 'https://unisat.io/brc20/$RNT',
       image: unisats
     },
     {
       id: 2,
       name: 'OKX',
-      url: 'https://www.okx.com/cn/web3/marketplace/ordinals/brc20/SeeU',
+      url: 'https://www.oklink.com/btc/token/brc20/13297207?hmsr=unisat',
       image: okx
     }
   ]
