@@ -40,7 +40,7 @@ export function CreationItem() {
         className="flex-1 object-cover"
       />
       <div className="px-[16px] py-[26px]">
-        <div>康师傅</div>
+        <div>LUV NFT</div>
       </div>
     </div>
   )
@@ -66,36 +66,38 @@ export function Home() {
         <div className="mr-0 flex flex-1 flex-col flex-wrap lg:mr-[100px]">
           <div className=" flex-1">
             <h1 className="text-[56px] font-[700] leading-[68px]">
-              SeeU, The First BRC20 Inscription for the Youth
+              $RNT, The First BRC20 Inscription for renting
             </h1>
             <p className="text-[20px] leading-[26px]">
-              Allowing companions who missed out on inscriptions to band
-              together and strive for the top, achieving a new generation of a
-              thousandfold coin.
+              Enabling LNElords to accept Bitcoin rent with a larger goal of
+              solving the housing crisis. Advertise your services, products,
+              or property rentals in our @RNTSAT Telegram, Twitter, or Discord.
+              Invest 1607 $RNT to promote a rental on @LUVNFT. 50% of the proceeds
+              contribute to constructing affordable 3D ADU homes.
             </p>
           </div>
           <div>
             <SeeButton
               onClick={() => {
                 window.open(
-                  'https://www.okx.com/cn/web3/marketplace/ordinals/brc20/SeeU',
+                  'https://www.oklink.com/btc/token/brc20/13297207?hmsr=unisat',
                   '_blank'
                 )
               }}
               className="h-[40px] w-[160px]"
             >
-              OKX maketplace
+              OKX Marketplace
             </SeeButton>
             <Button
               onClick={() => {
                 window.open(
-                  'https://unisat.io/market/brc20?tick=SeeU',
+                  'https://unisat.io/brc20/$RNT',
                   '_blank'
                 )
               }}
-              className="ml-4 h-[40px] w-[160px] border-[#63e3ff] text-[#63e3ff] "
+              className="ml-4 h-[40px] w-[160px] border-[#F7931A] text-[#F7931A] "
             >
-              Unisat maketplace
+              Unisat Marketplace
             </Button>
           </div>
           <div className="h-[20px] lg:h-[180px]"></div>
@@ -168,7 +170,7 @@ export function Home() {
             <div className="flex gap-4 pt-4">
               <Button
                 onClick={() => {
-                  window.open('https://twitter.com/seeu_brc20', '_blank')
+                  window.open('https://twitter.com/rbtsat', '_blank')
                 }}
                 className="h-[40px] w-[152px] bg-[#111] text-white"
               >
@@ -176,7 +178,7 @@ export function Home() {
               </Button>
               <Button
                 onClick={() => {
-                  window.open('https://t.me/seeubtc', '_blank')
+                  window.open('https://t.me/rntsat', '_blank')
                 }}
                 className="h-[40px] w-[152px] "
               >
@@ -193,13 +195,13 @@ export function Home() {
       </h1>
       <div className="flex flex-col gap-2 px-[20px] text-lg text-[#aaa]">
         <div className="flex justify-between text-sm text-[#aaa]">
-          <div>Minted: 21,000,000,000</div>
+          <div>Minted: 6,428</div>
           <div>Supply: 21,000,000,000</div>
         </div>
         <Progress
           percent={100}
           showInfo={false}
-          strokeColor={{ '0%': '#63e3ff', '100%': '#87d068' }}
+          strokeColor={{ '0%': '#F7931A', '100%': '#87d068' }}
         />
         <div className="flex flex-wrap">
           <div className="w-[240px]">Total supply</div>
@@ -207,7 +209,7 @@ export function Home() {
         </div>
         <div className="flex flex-wrap">
           <div className="w-[240px]">Deployed</div>
-          <div>12/21/2023, 13:26:30</div>
+          <div>6/23/2023, 7:38:31</div>
         </div>
         <div className="flex flex-wrap">
           <div className="w-[240px]">Inscription ID</div>
@@ -215,15 +217,15 @@ export function Home() {
         </div>
         <div className="flex flex-wrap">
           <div className="w-[240px]">Inscription starting no.</div>
-          <div>#49925873</div>
+          <div>#13297207</div>
         </div>
         <div className="flex flex-wrap">
           <div className="w-[240px]">Inscription ending no.</div>
-          <div>#50070419</div>
+          <div>#13407995</div>
         </div>
         <div className="flex flex-wrap">
           <div className="w-[240px]">Limit per mint</div>
-          <div>1,000,000</div>
+          <div>1,607</div>
         </div>
       </div>
       <div className="h-[60px]"></div>
@@ -233,12 +235,12 @@ export function Home() {
       <div className="h-[60px]"></div>
       {/* Tools */}
       <h1 className="my-[20px] flex items-center justify-between text-[24px] font-[500] leading-[30px]">
-        <div>Tools</div>
+        <div>RNTal Markets</div>
         <div
           onClick={handleNavigate}
-          className="cursor-pointer text-lg text-[#63e3ff]"
+          className="cursor-pointer text-lg text-[#F7931A]"
         >
-          More tools
+          More RNTals
         </div>
       </h1>
       <div className="grid grid-cols-2 gap-[24px]">

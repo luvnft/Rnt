@@ -12,7 +12,7 @@ export function SeeButton(props: ButtonProps) {
     <Button
       {...props}
       className={mergeClassNames(
-        'border-0 bg-[#63e3ff] px-[8px] w-[140px] h-[44px]',
+        'border-0 bg-[#F7931A] px-[8px] w-[140px] h-[44px]',
         props.className
       )}
     >

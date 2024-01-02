@@ -21,39 +21,45 @@ export const toolsData: {
       id: 1,
       url: 'https://mempool.space/',
       image: tool1,
-      name: 'Mempool'
+      name: 'LUV NFT Discord'
     },
     {
       id: 2,
-      url: 'https://dune.com/cryptokoryo/brc20',
+      url: 'https://discord.com/channels/1163344441436819497/shop',
       image: tool2,
-      name: 'Dune'
+      name: 'CRE CLUB Discord'
     },
     {
       id: 3,
-      url: 'https://mct.xyz/inscribe/monitor?inscribe_type=brc20-mint&block_type=pending',
+      url: 'https://ateam.arvrtise.com',
       image: tool3,
-      name: 'BTC 铭文监控'
+      name: 'Arvrtise Discord'
     },
     {
       id: 4,
-      url: 'https://ordinals.hiro.so/',
+      url: 'https://discord.com/channels/1164180431181201438/shop',
       image: tool4,
-      name: 'Explore Ordinals inscriptions'
+      name: 'ADUBNB'
+    },
+    {
+      id: 5,
+      url: 'https://discord.com/channels/1188100125705375806/shop',
+      image: tool5,
+      name: 'HAIR'
     }
   ],
   'Mint Tools': [
     {
       id: 1,
-      url: 'https://bitpunks.io/Punk/Insbot',
-      image: tool5,
-      name: 'bitPunks Insbot'
+      url: 'https://sator.luvnft.com',
+      image: tool6,
+      name: 'SATOR '
     },
     {
       id: 2,
       url: 'https://hub.cryptocell.guru/ordinalsturbo/',
-      image: tool6,
-      name: 'Ordinalsturbo'
+      image: tool7,
+      name: 'HUB'
     }
   ]
 }
@@ -96,7 +102,7 @@ export const Tools = () => {
             <div className="line-wrap one-line-wrap mb-[8px] block">
               https://pool.binance.com/en/acceleration
             </div>
-            <img src={tool7} alt="img" className="aspect-[300/142]" />
+            <img src={tool8} alt="img" className="aspect-[300/142]" />
           </a>
         </div>
       </div>

@@ -10,7 +10,7 @@ export function SoialPanel() {
   return (
     <div className="flex flex-row items-center gap-4 ">
       <div
-        className="!flex cursor-pointer items-center justify-center rounded-full border p-[8px] hover:bg-[#63e3ff]"
+        className="!flex cursor-pointer items-center justify-center rounded-full border p-[8px] hover:bg-[#F7931A]"
         onClick={() => {
           handleShare()
         }}
@@ -24,7 +24,7 @@ export function SoialPanel() {
         />
       </div>
       <div
-        className="!flex cursor-pointer items-center justify-center rounded-full border p-[8px] hover:bg-[#63e3ff]"
+        className="!flex cursor-pointer items-center justify-center rounded-full border p-[8px] hover:bg-[#F7931A]"
         onClick={() => {
           window.open('https://twitter.com/seeu_brc20')
         }}
@@ -38,7 +38,7 @@ export function SoialPanel() {
         />
       </div>
       <div
-        className="!flex cursor-pointer items-center justify-center rounded-full border p-[8px] hover:bg-[#63e3ff]"
+        className="!flex cursor-pointer items-center justify-center rounded-full border p-[8px] hover:bg-[#F7931A]"
         onClick={() => {
           window.open('https://t.me/+-sylvVN20l5jYzdl')
         }}
