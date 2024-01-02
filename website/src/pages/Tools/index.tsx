@@ -1,10 +1,11 @@
-import tool1 from 'assets/images/tool1.png'
-import tool2 from 'assets/images/tool2.png'
-import tool3 from 'assets/images/tool3.png'
-import tool4 from 'assets/images/tool4.png'
-import tool5 from 'assets/images/tool5.png'
-import tool6 from 'assets/images/tool6.png'
-import tool7 from 'assets/images/tool7.png'
+import tool1 from '/assets/images/tool1.png'
+import tool2 from '/assets/images/tool2.png'
+import tool3 from '/assets/images/tool3.png'
+import tool4 from '/assets/images/tool4.png'
+import tool5 from '/assets/images/tool5.png'
+import tool6 from '/assets/images/tool6.png'
+import tool7 from '/assets/images/tool7.png'
+import tool8 from '/assets/images/tool8.png'
 
 export type Tool = {
   id: number
@@ -19,7 +20,7 @@ export const toolsData: {
   dashboard: [
     {
       id: 1,
-      url: 'https://mempool.space/',
+      url: 'https://discord.gg/x5JVbNWERV',
       image: tool1,
       name: 'LUV NFT Discord'
     },
@@ -61,6 +62,14 @@ export const toolsData: {
       image: tool7,
       name: 'HUB'
     }
+  ],
+  Accelerator: [
+    {
+      id: 1,
+      url: 'https://pool.binance.com/en/acceleration',
+      image: tool8,
+      name: 'Binance Accelerator'
+    }
   ]
 }
 
@@ -88,24 +97,6 @@ export const Tools = () => {
           </div>
         </div>
       ))}
-      <div>
-        <h1 className="mb-[8px] text-[24px] font-[600] capitalize">
-          Accelerate
-        </h1>
-        <div className="grid grid-cols-1 gap-[36px] md:grid-cols-2">
-          <a
-            href="https://pool.binance.com/en/acceleration"
-            target="_blank"
-            className="col-span-1 rounded-lg p-4 shadow hover:shadow-lg"
-            rel="noopener noreferrer"
-          >
-            <div className="line-wrap one-line-wrap mb-[8px] block">
-              https://pool.binance.com/en/acceleration
-            </div>
-            <img src={tool8} alt="img" className="aspect-[300/142]" />
-          </a>
-        </div>
-      </div>
     </div>
   )
 }
