@@ -47,7 +47,7 @@ const Footer = () => {
           Linkedin
         </span>
       </div>
-      <div>© $RNT 2023</div>
+      <div>©$RNT 2023</div>
     </div>
   )
 }

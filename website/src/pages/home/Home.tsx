@@ -71,7 +71,7 @@ export function Home() {
             <p className="text-[20px] leading-[26px]">
               Enabling LNElords to accept Bitcoin rent with a larger goal of
               solving the housing crisis. Advertise your services, products,
-              or property rentals in our @RNTSAT Telegram, Twitter, or Discord.
+              or property rentals in our @RNTSAT Telegram, X, or Discord.
               Invest 1607 $RNT to promote a rental on @LUVNFT. 50% of the proceeds
               contribute to constructing affordable 3D ADU homes.
             </p>
@@ -170,7 +170,7 @@ export function Home() {
             <div className="flex gap-4 pt-4">
               <Button
                 onClick={() => {
-                  window.open('https://twitter.com/rbtsat', '_blank')
+                  window.open('https://twitter.com/rntsat', '_blank')
                 }}
                 className="h-[40px] w-[152px] bg-[#111] text-white"
               >

@@ -41,7 +41,7 @@
 //   }, [location])
 
 //   const handleShare = async () => {
-//     const shortUrl = `seeu community official website: %0A https://rnt.luvnft.com %0A👆👆👆%0A %23brc20 %23rntsat`
+//     const shortUrl = `$RNT community official website: %0A https://rnt.luvnft.com %0A👆👆👆%0A %23brc20 %23rntsat`
 //     onShareX(shortUrl)
 //   }
 
