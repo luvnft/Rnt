@@ -13,38 +13,38 @@
   </div>
 
   <script>
-    function TwitterList() {
-      const xc = useRef<HTMLDivElement>(null)
+  function TwitterList() {
+  const xc = useRef<HTMLDivElement>(null)
 
-      useEffect(() => {
-        if (xc.current) {
-          const script = document.createElement('script')
-          script.src = 'https://platform.twitter.com/widgets.js'
-          script.async = true
-          script.charset = 'utf-8'
-          xc.current.appendChild(script)
-        }
-      }, [])
-
-      return (
-        <div>
-          <h1 className="my-[20px] flex items-center justify-between text-[24px] font-[500] leading-[30px]">
-            Twitter
-          </h1>
-          <div ref={xc} className="">
-            <a
-              className="twitter-timeline"
-              data-lang="en"
-              data-height="1000"
-              data-theme="dark"
-              href="https://twitter.com/rntsat?ref_src=twsrc%5Etfw"
-            >
-              Loading Tweets...
-            </a>
-          </div>
-        </div>
-      )
+  useEffect(() => {
+    if (xc.current) {
+      const script = document.createElement('script')
+      script.src = 'https://platform.twitter.com/widgets.js'
+      script.async = true
+      script.charset = 'utf-8'
+      xc.current.appendChild(script)
     }
+  }, [])
+
+  return (
+    <div>
+      <h1 className="my-[20px] flex items-center justify-between text-[24px] font-[500] leading-[30px]">
+        Twitter
+      </h1>
+      <div ref={xc} className="">
+        <a
+          className="twitter-timeline"
+          data-lang="en"
+          data-height="1000"
+          data-theme="dark"
+          href="https://twitter.com/rntsat?ref_src=twsrc%5Etfw"
+        >
+          Loading Tweets...
+        </a>
+      </div>
+    </div>
+  )
+}
 
     function TelegramList() {
       const tc = useRef<HTMLDivElement>(null)
