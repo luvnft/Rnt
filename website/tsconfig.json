@@ -9,14 +9,14 @@
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "module": "CommonJS",
-    "moduleResolution": "node",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "jsx": "react",
+    "noEmit": true,
+    "jsx": "react-jsx",
     "types": ["vite/client", "vitest/globals", "@testing-library/jest-dom"]
   },
   "include": ["src"],
   "exclude": ["node_modules"]
 }
-
