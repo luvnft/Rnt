@@ -69,11 +69,10 @@ export function Home() {
               $RNT, The First BRC20 Inscription for renting
             </h1>
             <p className="text-[20px] leading-[26px]">
-              Enabling LNElords to accept Bitcoin rent with a larger goal of
+              Enabling everyone to accept Bitcoin rent with a larger goal of
               solving the housing crisis. Advertise your services, products,
-              or property rentals in our @RNTSAT Telegram, X, or Discord.
-              Invest 1607 $RNT to promote a rental on @LUVNFT. 50% of the proceeds
-              contribute to constructing affordable 3D ADU homes.
+              or property rentals in our @RNTSAT Telegram, X, or Discord. 50%
+              of the proceeds will go to constructing affordable ADU homes.
             </p>
           </div>
           <div>
