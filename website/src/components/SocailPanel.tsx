@@ -40,7 +40,7 @@ export function SoialPanel() {
       <div
         className="!flex cursor-pointer items-center justify-center rounded-full border p-[8px] hover:bg-[#F7931A]"
         onClick={() => {
-          window.open('https://t.me/rntsat');
+          window.open('https://t.me/+cS4JbYm-Fdc4MTAx');
         }}
       >
         <TelegramIcon
