@@ -1,7 +1,7 @@
 import logo2 from 'assets/images/logo2.png'
 
 const Banner = () => {
-  const slogan = 'See U on The Moon'
+  const slogan = 'Rent with a higher purpose.'
 
   return (
     <div className="frc-center flex-1 overflow-hidden bg-black lg:max-w-[800px]">

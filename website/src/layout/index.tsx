@@ -12,7 +12,7 @@ export function SeeButton(props: ButtonProps) {
     <Button
       {...props}
       className={mergeClassNames(
-        'border-0 bg-[#63e3ff] px-[8px] w-[140px] h-[44px]',
+        'border-0 bg-[#F7931A] px-[8px] w-[140px] h-[44px]',
         props.className
       )}
     >
@@ -32,12 +32,12 @@ export const Header = () => {
         className="flex cursor-pointer items-center gap-4"
       >
         <img
-          src="/favicon.ico"
+          src="/rnt.ico"
           className="rounded-full"
           width={52}
           alt="logo"
         />
-        SeeU
+        $RNT
       </div>
       <div className="flex-1"> </div>
       <SoialPanel />

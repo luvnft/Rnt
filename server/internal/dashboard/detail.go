@@ -6,8 +6,8 @@ import (
 	"time"
 
 	"github.com/gin-gonic/gin"
-	"github.com/seeu-labs/website/server/pkg/cache"
-	"github.com/seeu-labs/website/server/pkg/okx-waas"
+	"github.com/luvnft/website/server/pkg/cache"
+	"github.com/luvnft/website/server/pkg/okx-waas"
 )
 
 var _cache = cache.NewObjectCache(1 * time.Minute)
@@ -37,11 +37,11 @@ func handleSeeuDetail(ctx *gin.Context) {
 
 func getOrdinalsInfo(ctx context.Context) *okx_waas.OrdinalsInfo {
 	var info okx_waas.OrdinalsInfo
-	k := "ordinals:" + "seeu"
+	k := "ordinals:" + "rnt"
 	if _cache.GetFromCache(k, &info) {
 		return &info
 	}
-	oc, err := mc.Marketplace().GetNftOrdinalsCollection("seeu")
+	oc, err := mc.Marketplace().GetNftOrdinalsCollection("rnt")
 	if err != nil {
 		panic(err)
 	}
@@ -51,11 +51,11 @@ func getOrdinalsInfo(ctx context.Context) *okx_waas.OrdinalsInfo {
 
 func getDetail(ctx context.Context) *okx_waas.Brc20TokenDetail {
 	var detail okx_waas.Brc20TokenDetail
-	k := "brc20-detail:" + "seeu"
+	k := "brc20-detail:" + "rnt"
 	if _cache.GetFromCache(k, &detail) {
 		return &detail
 	}
-	td, err := mc.Explorer().GetBrc20TokenDetail("seeu")
+	td, err := mc.Explorer().GetBrc20TokenDetail("rnt")
 	if err != nil {
 		panic(err)
 	}

@@ -17,7 +17,7 @@ export default defineConfig({
     cors: true,
     proxy: {
       '/api': {
-        target: 'https://seeu.meme',
+        target: 'https://rnt.luvnft.com',
         secure: false,
         ws: true,
         changeOrigin: true,

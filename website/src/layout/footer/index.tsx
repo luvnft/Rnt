@@ -1,11 +1,16 @@
 const Footer = () => {
   return (
+<<<<<<< HEAD
     <div className="mt-[40px] flex h-[140px] flex-wrap  items-center gap-[10px] border-t-[1px] border-[#383838] p-[10px]">
       <div className="pr-[60px] text-[26px]  font-[700]">SeeU</div>
+=======
+    <div className="mt-[40px] flex h-[87px] flex-wrap  items-center gap-[10px] border-t-[1px] border-[#383838] p-[10px]">
+      <div className="pr-[60px] text-[26px]  font-[700]">$RNT</div>
+>>>>>>> b82e095b78c6f7b524e8281ecc8ccdadcfb449bc
       <div className="flex flex-1 gap-[18px] text-[18px] lg:gap-[60px]">
         <span
           onClick={() => {
-            window.open('https://twitter.com/seeu_brc20', '_blank')
+            window.open('https://twitter.com/rntsat', '_blank')
           }}
           className="cursor-pointer"
         >
@@ -13,7 +18,7 @@ const Footer = () => {
         </span>
         <span
           onClick={() => {
-            window.open('https://t.me/seeubtc', '_blank')
+            window.open('https://t.me/rntsat', '_blank')
           }}
           className="cursor-pointer"
         >
@@ -22,13 +27,13 @@ const Footer = () => {
         <span
           onClick={() => {
             window.open(
-              'https://seeubtc.notion.site/SeeU-910514ce2de248e4a4ac2ae84ab9c621',
+              'https://luvnft.com',
               '_blank'
             )
           }}
           className="cursor-pointer"
         >
-          Notion
+          LUV NFT
         </span>
         {/* <span
           onClick={() => {
@@ -40,14 +45,14 @@ const Footer = () => {
         </span> */}
         <span
           onClick={() => {
-            window.open('https://github.com/seeu-labs', '_blank')
+            window.open('https://www.linkedin.com/groups/14347080/', '_blank')
           }}
           className="cursor-pointer"
         >
-          GitHub
+          Linkedin
         </span>
       </div>
-      <div>© SeeU 2023</div>
+      <div>©$RNT 2023</div>
     </div>
   )
 }

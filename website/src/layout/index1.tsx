@@ -24,7 +24,7 @@
 //     {
 //       key: '3',
 //       path: 'tools',
-//       label: 'Tools'
+//       label: 'Promo'
 //     },
 //     {
 //       key: '4',
@@ -41,7 +41,7 @@
 //   }, [location])
 
 //   const handleShare = async () => {
-//     const shortUrl = `seeu community official website: %0A https://seeu-brc20.xyz %0A👆👆👆%0A %23brc20 %23seeu`
+//     const shortUrl = `$RNT community official website: %0A https://rnt.luvnft.com %0A👆👆👆%0A %23brc20 %23rntsat`
 //     onShareX(shortUrl)
 //   }
 
@@ -71,7 +71,7 @@
 //             <div
 //               className="!flex h-8 w-8 cursor-pointer items-center justify-center rounded-full border bg-[#1818180f]"
 //               onClick={() => {
-//                 window.open('https://twitter.com/seeu_brc20')
+//                 window.open('https://twitter.com/rntsat')
 //               }}
 //             >
 //               <TwitterIcon
@@ -87,7 +87,7 @@
 //             <div
 //               className="!flex h-8 w-8 cursor-pointer items-center justify-center rounded-full border bg-[#1818180f]"
 //               onClick={() => {
-//                 window.open('https://t.me/+-sylvVN20l5jYzdl')
+//                 window.open('https://t.me/rntsat')
 //               }}
 //             >
 //               <TelegramIcon width="14px" height="14px" />

@@ -175,7 +175,7 @@ export function Home() {
             <div className="flex gap-4 pt-4">
               <Button
                 onClick={() => {
-                  window.open('https://twitter.com/seeu_brc20', '_blank')
+                  window.open('https://twitter.com/rntsats', '_blank')
                 }}
                 className="h-[40px] w-[152px] bg-[#111] text-white"
               >
@@ -183,7 +183,7 @@ export function Home() {
               </Button>
               <Button
                 onClick={() => {
-                  window.open('https://t.me/seeubtc', '_blank')
+                  window.open('https://t.me/rntsats', '_blank')
                 }}
                 className="h-[40px] w-[152px] "
               >

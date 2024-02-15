@@ -17,7 +17,7 @@ const Mint = () => {
         <img src={banner} alt="banner" />
 
         <div className="frc-center absolute left-0 top-0 h-full w-full">
-          <h1 className="mt--40 text-[64px] font-bold text-white">$SEEU</h1>
+          <h1 className="mt--40 text-[64px] font-bold text-white">$RNT</h1>
         </div>
       </div>
 
@@ -26,12 +26,12 @@ const Mint = () => {
 
         <p className="mb-4 h-[20px] w-full bg-black" />
 
-        <p className="text-[16px]">Minted: 100%</p>
+        <p className="text-[16px]">Minted: 3%</p>
       </div>
 
       <div>
         <p className="mb-2 w-full text-center">
-          Mint out! Valid inscription block range:{' '}
+          Minting open! Valid inscription block range:{' '}
         </p>
 
         <p className="w-full text-center">[49925873 ~ 50070419]</p>
@@ -45,7 +45,7 @@ const Mint = () => {
           type="button"
           className="mt-10 rounded-2xl border border-black px-4 py-1 font-[600] text-black transition-all hover:border-black hover:bg-[#dddddd] hover:text-black"
         >
-          Get $seeu from marketpalce
+          Get $RNT from marketpalce
         </button>
       </div>
     </div>

@@ -19,41 +19,41 @@ export const toolsData: {
   dashboard: [
     {
       id: 1,
-      url: 'https://mempool.space/',
+      url: 'https://luvgames.luvnft.com',
       image: tool1,
-      name: 'Mempool'
+      name: 'LUV NFT Discord'
     },
     {
       id: 2,
-      url: 'https://dune.com/cryptokoryo/brc20',
+      url: 'https://cre.arvrtise.com',
       image: tool2,
-      name: 'Dune'
+      name: 'CRE CLUB Discord'
     },
     {
       id: 3,
-      url: 'https://mct.xyz/inscribe/monitor?inscribe_type=brc20-mint&block_type=pending',
+      url: 'https://discord.com/channels/1164180431181201438/shop',
       image: tool3,
-      name: 'BTC 铭文监控'
+      name: 'Arvrtise Discord'
     },
     {
       id: 4,
-      url: 'https://ordinals.hiro.so/',
+      url: 'https://discord.com/channels/1164180431181201438/shop',
       image: tool4,
-      name: 'Explore Ordinals inscriptions'
+      name: 'ADUBNB'
     }
   ],
   'Mint Tools': [
     {
       id: 1,
-      url: 'https://bitpunks.io/Punk/Insbot',
+      url: 'https://sator.luvnft.com',
       image: tool5,
-      name: 'bitPunks Insbot'
+      name: 'SATOR'
     },
     {
       id: 2,
       url: 'https://hub.cryptocell.guru/ordinalsturbo/',
       image: tool6,
-      name: 'Ordinalsturbo'
+      name: 'Ordinals Turbo'
     }
   ]
 }
