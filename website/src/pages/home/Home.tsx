@@ -39,7 +39,7 @@ export function CreationItem() {
         className="flex-1 object-cover"
       />
       <div className="px-[16px] py-[26px]">
-        <div>康师傅</div>
+        <div>RNT</div>
       </div>
     </div>
   )
@@ -65,19 +65,21 @@ export function Home() {
         <div className="mr-0 flex flex-1 flex-col flex-wrap lg:mr-[100px]">
           <div className="md:flex-1">
             <h1 className="break-words text-[48px] font-[700] leading-[68px] md:text-[56px]">
-              SeeU, The First BRC20 Inscription for the Youth
+              RNT, The First BRC20 Inscription for renting
             </h1>
             <p className="text-[20px] leading-[26px]">
-              Allowing companions who missed out on inscriptions to band
-              together and strive for the top, achieving a new generation of a
-              thousandfold coin.
+              $RNT revolutionizes real estate by enabling Bitcoin payments. 
+              With a limited supply of 21,000,000 $RNT, it offers unprecedented 
+              opportunities for landlords and investors. $RNT facilitates seamless 
+              transactions, decentralized finance integration, and enhanced liquidity 
+              in the rental market.
             </p>
           </div>
           <div className="flex flex-wrap justify-start gap-8">
             <SeeButton
               onClick={() => {
                 window.open(
-                  'https://www.okx.com/cn/web3/marketplace/ordinals/brc20/SeeU',
+                  'https://www.okx.com/cn/web3/marketplace/ordinals/brc20/RNT',
                   '_blank'
                 )
               }}
@@ -88,7 +90,7 @@ export function Home() {
             <Button
               onClick={() => {
                 window.open(
-                  'https://unisat.io/market/brc20?tick=SeeU',
+                  'https://unisat.io/market/brc20?tick=RNT',
                   '_blank'
                 )
               }}
@@ -216,7 +218,7 @@ export function Home() {
             </div>
             <div className="flex flex-wrap">
               <div className="w-[180px]">Deployed</div>
-              <div>12/21/2023, 13:26:30</div>
+              <div>6/23/2023, 7:38:31</div>
             </div>
             <div className="flex flex-wrap">
               <div className="w-[180px]">Inscription ID</div>
@@ -226,15 +228,15 @@ export function Home() {
           <div>
             <div className="flex flex-wrap">
               <div className="w-[240px]">Inscription starting no.</div>
-              <div>#49925873</div>
+              <div>#13297207</div>
             </div>
             <div className="flex flex-wrap">
               <div className="w-[240px]">Inscription ending no.</div>
-              <div>#50070419</div>
+              <div>#13407995</div>
             </div>
             <div className="flex flex-wrap">
               <div className="w-[240px]">Limit per mint</div>
-              <div>1,000,000</div>
+              <div>1,607</div>
             </div>
           </div>
         </div>
