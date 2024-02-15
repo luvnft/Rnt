@@ -5,17 +5,17 @@ const Roadmap = () => (
     <div className="col-span-1 mt-12">
       <div className="content">
         <p className="leading-[1.25rem]">
-          SeeU is the leading meme coin of the Chinese DAO, which can drive the
-          community-based BTC Layer2 in the future.
+          $RNT was created as a solution to address the need for affordable housing 
+          by stabilizing rental fees, offering landlords the ability to accept Bitcoin 
+          as a form of payment for rentals.
         </p>
         <p>
-          Our slogan is to create a cyberspace community and an online Qinghong
-          gang
+          Our mission is to create a community of landlords that have a heart and want
+          to contribute to the solution and not be a part of the problem.
         </p>
         <p>
-          Our mission is to unite those who missed out on inscriptions,
-          fostering a collective effort to reach new heights and achieve a
-          thousandfold coin for the new generation.
+          We educate the real estate industry on how to create a crypto wallet and send 
+          a lightning invoice to collect $RNT without any traditional fees. 
         </p>
       </div>
       <h1 className="mt-4 h-[48px] w-[360px]">What</h1>
@@ -53,8 +53,8 @@ const Roadmap = () => (
           <li className="mb-[10px]">
             <h3>2.Economic model</h3>
             <p>
-              We stake SeeU to become a BitFair POS block producer. The block
-              reward is the L2 native token BitFair, and the GAS fee is SeeU.
+              We stake $RNT to become a BitFair POS block producer. The block
+              reward is the L2 native token BitFair, and the GAS fee is $RNT.
             </p>
           </li>
           <li>
