@@ -94,17 +94,9 @@ export function Home() {
                   '_blank'
                 )
               }}
-              className="h-[44px] w-[160px] border-[#63e3ff] text-[#63e3ff] hover:bg-[#63e3ff] hover:text-white md:mx-[unset]"
+              className="h-[44px] w-[160px] border-[#F7931A] text-[#F7931A] hover:bg-[#F7931A] hover:text-white md:mx-[unset]"
             >
               Unisat maketplace
-            </Button>
-            <Button
-              onClick={() => {
-                window.open('https://poloniex.com/trade/SEEU_USDT', '_blank')
-              }}
-              className="h-[44px] w-[160px] md:w-auto border-[#63e3ff] text-[#63e3ff] hover:bg-[#63e3ff] hover:text-white md:mx-[unset]"
-            >
-              SeeU/USDT(Poloniex)
             </Button>
           </div>
           <div className="h-[20px] lg:h-[180px]"></div>
@@ -208,7 +200,7 @@ export function Home() {
         <Progress
           percent={100}
           showInfo={false}
-          strokeColor={{ '0%': '#63e3ff', '100%': '#87d068' }}
+          strokeColor={{ '0%': '#F7931A', '100%': '#87d068' }}
         />
         <div className="flex items-between justify-start">
           <div className="flex-1">
@@ -250,12 +242,12 @@ export function Home() {
       <div className="h-[30px]"></div>
       <div>
         <h1 className="my-[20px] flex items-center justify-between text-[24px] font-[500] leading-[30px]">
-          <div>Tools</div>
+          <div>PPV Discords</div>
           <div
             onClick={handleNavigate}
             className="cursor-pointer text-lg text-[#63e3ff]"
           >
-            More tools
+            
           </div>
         </h1>
         <div className="grid grid-cols-1 gap-[24px] md:grid-cols-2">

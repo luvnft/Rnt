@@ -22,7 +22,7 @@ export function TwitterList() {
         <div ref={xc} className="w-full max-w-[1280px]">
           <a
             className="twitter-timeline"
-            data-lang="zh-cn"
+            data-lang="en"
             data-height="1000"
             data-theme="dark"
             href="https://twitter.com/rntsat?ref_src=twsrc%5Etfw"
