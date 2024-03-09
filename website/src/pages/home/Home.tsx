@@ -65,38 +65,39 @@ export function Home() {
         <div className="mr-0 flex flex-1 flex-col flex-wrap lg:mr-[100px]">
           <div className="md:flex-1">
             <h1 className="break-words text-[48px] font-[700] leading-[68px] md:text-[56px]">
-              RNT, The First BRC20 Inscription for renting
+              Accepting $RNT Creates Affordable Housing 
             </h1>
             <p className="text-[20px] leading-[26px]">
-              $RNT revolutionizes real estate by enabling Bitcoin payments. 
+              $RNT revolutionizes real estate by enabling Bitcoin rental payments. 
               With a limited supply of 21,000,000 $RNT, it offers unprecedented 
-              opportunities for landlords and investors. $RNT facilitates seamless 
+              opportunities for landlords and investors to contribute to the housing
+              crisis and homelessness solution. $RNT facilitates seamless 
               transactions, decentralized finance integration, and enhanced liquidity 
-              in the rental market.
+              in the rental market. One $RNT token is .044444 $BTC.
             </p>
           </div>
           <div className="flex flex-wrap justify-start gap-8">
             <SeeButton
               onClick={() => {
                 window.open(
-                  'https://www.okx.com/cn/web3/marketplace/ordinals/brc20/RNT',
+                  'https://unisat.io/market/brc20?tick=$RNT',
                   '_blank'
                 )
               }}
               className="h-[44px] w-[160px] md:mx-[unset]"
             >
-              OKX maketplace
+              Unisat maketplace
             </SeeButton>
             <Button
               onClick={() => {
                 window.open(
-                  'https://unisat.io/market/brc20?tick=RNT',
+                  'https://www.oklink.com/btc/token/brc20/13297207?hmsr=unisat',
                   '_blank'
                 )
               }}
               className="h-[44px] w-[160px] border-[#F7931A] text-[#F7931A] hover:bg-[#F7931A] hover:text-white md:mx-[unset]"
             >
-              Unisat maketplace
+              OKLINK maketplace
             </Button>
           </div>
           <div className="h-[20px] lg:h-[180px]"></div>
