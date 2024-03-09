@@ -33,6 +33,6 @@ export class SeeUApi {
   constructor(private c: Client) {}
 
   getSeeUDetails(): Promise<SeeUDetail> {
-    return this.c.instance.get('/api/seeu/detail').then((res) => res.data)
+    return this.c.instance.get('/api/$RNT/detail').then((res) => res.data)
   }
 }

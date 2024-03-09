@@ -5,5 +5,5 @@ import (
 )
 
 func configureRoutes(g *gin.Engine) {
-	g.GET("/api/seeu/detail", handleSeeuDetail)
+	g.GET("/api/$RNT/detail", handleSeeuDetail)
 }
