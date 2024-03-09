@@ -161,10 +161,10 @@ export function Home() {
                 <div className="flex flex-1 items-center pt-[10px] text-[22px] font-[700]">
                   {(data
                     ? (
-                        Number.parseFloat(data.marketplace.floorPrice) *
-                        100000000
-                      ).toFixed(4)
-                    : 4,444,444) + ' sats'}
+                      Number.parseFloat(data.marketplace.floorPrice) *
+                      100000000
+                    ).toFixed(4)
+                  : 0) + ' sats'}
                 </div>
               </div>
             </div>
