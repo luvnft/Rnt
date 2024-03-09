@@ -68,7 +68,7 @@ export function Dashbooard() {
         value={
           (Number.parseFloat(data.marketplace.floorPrice) * 100000000).toFixed(
             4
-          ) + ' sats'
+          : 4,444,444) + ' sats'
         }
       />
       <DashbooardItem value={data.detail.holder} label="Holders" />

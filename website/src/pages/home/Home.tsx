@@ -163,26 +163,26 @@ export function Home() {
                         Number.parseFloat(data.marketplace.floorPrice) *
                         100000000
                       ).toFixed(4)
-                    : 0) + ' sats'}
+                    : 4,444,444) + ' sats'}
                 </div>
               </div>
             </div>
             <div className="flex gap-4 pt-4">
               <Button
                 onClick={() => {
-                  window.open('https://twitter.com/rntsats', '_blank')
+                  window.open('https://twitter.com/rntsat', '_blank')
                 }}
                 className="h-[40px] w-[152px] bg-[#111] text-white"
               >
-                Follow us
+                X @RNTSAT
               </Button>
               <Button
                 onClick={() => {
-                  window.open('https://t.me/rntsats', '_blank')
+                  window.open('https://t.me/rntsat', '_blank')
                 }}
                 className="h-[40px] w-[152px] "
               >
-                Join us
+                Telegram @RNTSAT
               </Button>
             </div>
           </div>
