@@ -68,12 +68,13 @@ export function Home() {
               Accepting $RNT Creates Affordable Housing 
             </h1>
             <p className="text-[20px] leading-[26px]">
-              $RNT revolutionizes real estate by enabling Bitcoin rental payments. 
-              With a limited supply of 21,000,000 $RNT, it offers unprecedented 
-              opportunities for landlords and investors to contribute to the housing
-              crisis and homelessness solution. $RNT facilitates seamless 
-              transactions, decentralized finance integration, and enhanced liquidity 
-              in the rental market. One $RNT token is .044444 $BTC.
+              $RNT revolutionizes real estate by enabling Bitcoin rental payments.
+              With a limited supply of 21,000,000 $RNT, it offers opportunities for
+              landlords and donors to contribute to solving the housing crisis and
+              homelessness. Proceeds from $RNT will go towards airdropping instant
+              $RNT relief and purchasing ADUs that accept $RNT. One $RNT token
+              is equivalent to 0.044444 $BTC. Promote your RNTal for free on our Telegram,
+              tag @RNTSAT on X with #RNT🧡 for ♻️. Donate $BTC, $ETH, $MATIC to rentluv.crypto.
             </p>
           </div>
           <div className="flex flex-wrap justify-start gap-8">
