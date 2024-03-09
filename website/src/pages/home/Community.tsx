@@ -16,7 +16,7 @@ export function TwitterList() {
   return (
     <div className="flex-1">
       <h1 className="mb-[20px] flex items-center justify-between text-[24px] font-[500] leading-[30px]">
-        Twitter
+        X
       </h1>
       <div className="frc-center border-gray-100 bg-[#1d1e1f]">
         <div ref={xc} className="w-full max-w-[1280px]">

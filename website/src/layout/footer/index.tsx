@@ -9,7 +9,7 @@ const Footer = () => {
           }}
           className="cursor-pointer"
         >
-          Twitter
+          X
         </span>
         <span
           onClick={() => {
