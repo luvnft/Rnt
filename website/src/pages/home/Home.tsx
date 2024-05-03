@@ -65,16 +65,14 @@ export function Home() {
         <div className="mr-0 flex flex-1 flex-col flex-wrap lg:mr-[100px]">
           <div className="md:flex-1">
             <h1 className="break-words text-[48px] font-[700] leading-[68px] md:text-[56px]">
-              Accepting $RNT Creates Affordable Housing 
+              Accept Bitcoin $RNT With No Middleman Fees 
             </h1>
             <p className="text-[20px] leading-[26px]">
               $RNT revolutionizes real estate by enabling Bitcoin rental payments.
               With a limited supply of 21,000,000 $RNT, it offers opportunities for
               landlords and donors to contribute to solving the housing crisis and
-              homelessness. Proceeds from $RNT will go towards airdropping instant
-              $RNT relief and purchasing ADUs that accept $RNT. One $RNT token
-              is equivalent to 0.044444 $BTC. Promote your RNTal for free on our Telegram,
-              tag @RNTSAT on X with #RNT🧡 for ♻️. Donate $BTC, $ETH, $MATIC to rentluv.crypto.
+              homelessness. Promote your RNTal for free. Donate $BTC, $ETH, $MATIC 
+              to rentluv.crypto.
             </p>
           </div>
           <div className="flex flex-wrap justify-start gap-8">
@@ -87,18 +85,18 @@ export function Home() {
               }}
               className="h-[44px] w-[160px] md:mx-[unset]"
             >
-              Unisat maketplace
+              UNISAT MAKETPLACE
             </SeeButton>
             <Button
               onClick={() => {
                 window.open(
-                  'https://www.oklink.com/btc/token/brc20/13297207?hmsr=unisat',
+                  'https://app.uniswap.org/pools/716981',
                   '_blank'
                 )
               }}
               className="h-[44px] w-[160px] border-[#F7931A] text-[#F7931A] hover:bg-[#F7931A] hover:text-white md:mx-[unset]"
             >
-              OKLINK maketplace
+              UNISWAP POOL
             </Button>
           </div>
           <div className="h-[20px] lg:h-[180px]"></div>
